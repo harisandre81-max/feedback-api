@@ -1,0 +1,19 @@
+
+# Variables de entorno
+.env
+
+# VSCode
+.vscode/
+
+# IA rules / configs
+.github/instructions/codacy.instructions.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Logs
+*.log
