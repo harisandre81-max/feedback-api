@@ -17,3 +17,7 @@ __pycache__/
 
 # Logs
 *.log
+
+# sistema operativo
+.DS_Store
+Thumbs.db
