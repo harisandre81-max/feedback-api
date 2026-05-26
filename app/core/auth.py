@@ -1,6 +1,5 @@
 from fastapi import Header, HTTPException, Depends
 from sqlalchemy.orm import Session
-
 from app.core.jwt import verify_token
 from app.database.deps import get_db
 from app.models.user import User
