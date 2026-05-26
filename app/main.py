@@ -40,3 +40,7 @@ def root():
     return {
         "message": "FeedbackSDK API funcionando"
     }
+
+@app.get("/healthz")
+def health():
+    return {"status": "ok"}    
